@@ -1,8 +1,9 @@
 const config = {
     verbose: true,
     "transform": {
-        "\\.[jt]sx?$": "babel-jest",
-  }
+        "^.+\\\\\\\\.[t|j]sx?$": "babel-jest"
+  },
+//   testEnvironment: "jsdom",
 }
 
 module.exports = config;

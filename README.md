@@ -8,7 +8,7 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
 
-Problems:
+## Problems with commit https://github.com/max-evinced/jest-react-example/commit/eb8919fedecc7fe7aff21a879c4fc6983d53fd79:
 `pnpm test` should generate an error using the render method in count.test.js. The jsx files can't be parsed.
 
 ```
